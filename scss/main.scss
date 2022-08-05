@@ -1,9 +1,20 @@
+// Customize Bootstrap
+
+
+
+
+// Import Bootstrap form node-modules
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
 
+// All Customize code
+
+
 h1 {
-  color:red;
+  color:rgb(60, 0, 255);
+  font-size: 50px;
+  background-color: aqua;
 }
 
 
