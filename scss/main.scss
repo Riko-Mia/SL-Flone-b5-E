@@ -11,11 +11,12 @@ $font-family-sans-serif:'Poppins', sans-serif;
 // All Customize code
 @import "./cart";
 @import "./shop";
+@import "../shop/product-view/product-views";
 
 
 
 body{
-  background-color: #f6f6f6;
+  background-color: #ffffff;
   width: 100vw;
 }
 .li-bar{
@@ -388,7 +389,7 @@ h6:hover{
       align-items: center;
       flex-wrap: wrap;
       width: 100%;
-      transform: translateX(-50%);
+      transform: translateX(-50%); 
 
       .product-same-action{
         display: flex;
@@ -396,7 +397,7 @@ h6:hover{
         justify-content: center;
         height: 48px;
         background-color: #a749ff;
-        transition: 0.5s;
+        transition: all 0.5s ease;
         transform: translateY(20px);
         visibility: hidden;
         opacity: 0;
@@ -424,7 +425,6 @@ h6:hover{
       }
       .pro-card{
         font-size: 14px;
-        // width: calc(100% - 96px);
         transition-delay: 0.2s;
       }
       .pro-quickview{
@@ -465,7 +465,7 @@ h6:hover{
       content: "";
       background-color: rgb(0, 0, 0);
     }
-    .product-price span.old{
+    .product-price .old{
       text-decoration: line-through;
       color: #8e8e8e;
     }
